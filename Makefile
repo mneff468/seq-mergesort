@@ -1,7 +1,7 @@
 CXX = g++
-CXXFLAGS = -O2 -std=c++17 -Wall -Wextra -pedantic
+CXXFLAGS = -std=c++17 -O2 -Wall -Wextra -pedantic
 TARGET = mergesort
-SRC = src/main.cpp
+SRC = main.cpp
 
 all: $(TARGET)
 
