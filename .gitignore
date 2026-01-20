@@ -1,15 +1,6 @@
-# Build artifacts
-*.o
-*.obj
-*.exe
 mergesort
-a.exe
-a.out
-
-# Slurm output
-slurm-*.out
-results/slurm-*.out
-
-# IDE junk
-.vscode/
-.idea/
+*.o
+__pycache__/
+*.pyc
+results.txt
+plot.png
